@@ -1,0 +1,117 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Raleway', sans-serif;
+.header_container {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+        padding: 0px 10%;
+        cursor: pointer;
+      }
+    &_nav_bar {
+        padding-top: 10px;
+        font-family: 'Open Sans', sans-serif;
+        width: 650px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: 600;
+        font-size: 16px;
+       &_item {
+            text-decoration: none;
+            color: #646464;
+            &:hover {
+                   color: #212121;
+            }
+        }
+    }
+    &_reg {
+        padding-top: 10px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 16px;
+        padding-right: 63px;
+        a {
+            background: #CAA892;
+            border-radius: 15px 0px;
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 5px 19px;
+        }
+        &:hover {
+            filter: grayscale(25%);
+        }
+    }
+}
+// .header_container {
+//     font-family: "Open Sans", sans-serif;
+//     padding: 0px 15%;
+//     padding-top: 47px;
+//     height: 40px;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: center;
+//     position: relative;
+
+//     .logo {
+//       cursor: pointer;
+//     }
+//     .nav_bar {
+//       width: 460px;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       &_item {
+//         text-decoration: none;
+//         font-weight: 400;
+//         font-size: 17px;
+//         line-height: 22px;
+//         color: #212832;
+//         cursor: pointer;
+//         &:hover {
+//           color: #6e7399;
+//           font-size: 18px;
+//         }
+//       }
+//     }
+//     .reg_container {
+//       width: 279px;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       align-items: center;
+//       cursor: pointer;
+//       &_login a {
+//         width: 44px;
+//         height: 22px;
+//         color: #212832;
+//         text-decoration: none;
+//         font-weight: 500;
+//         font-size: 17px;
+//         padding-left: 30px;
+//         &:hover {
+//           color: #6e7399;
+//           font-size: 18px;
+//         }
+//       }
+//       &_sign a {
+//         width: 102px;
+//         height: 40px;
+//         border: 1px solid #212832;
+//         border-radius: 5px;
+//         padding: 9px 22px;
+//         color: #212832;
+//         text-decoration: none;
+//         font-weight: 500;
+//         font-size: 17px;
+//         &:hover {
+//           color: #6e7399;
+//           font-size: 18px;
+//         }
+//       }
+//     }
+//   }
