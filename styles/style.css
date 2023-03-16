@@ -97,3 +97,7 @@ body {
     right: -100px; }
     .what_container_photo img {
       width: 75%; }
+  .what_container_point {
+    position: absolute;
+    bottom: -200px;
+    left: 10px; }

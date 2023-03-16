@@ -118,4 +118,9 @@ body {
             width: 75%;            
         }  
     }
+    &_point {
+        position: absolute;
+        bottom: -200px;
+        left: 10px; 
+    }
 }
