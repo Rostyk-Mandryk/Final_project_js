@@ -101,106 +101,100 @@ body {
     position: absolute;
     bottom: -200px;
     left: 10px; }
+
 * {
-      transition: all .1s ease-in;
-      box-sizing: border-box;
-  }
-  .container {
-      background: #309acd;
-      border: 10px solid #2782ae;
-      text-align: center;
-      font-size: 0;
-      font-family: "Lucida Sans Unicode", sans-serif;
-  }
-  header {
-      text-align: start;
-      width: 70%;
-      margin: 20px auto;
-      font-size: 32px;
-      color: #ffffff;
-  }
-  ul {
-      border: 2px solid #ffffff;
-      width: 70%;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      padding: 0;
-      list-style: none;
-  }
-  ul li {
+  transition: all .1s ease-in;
+  box-sizing: border-box; }
+
+.container_weather {
+  margin: 80px 0;
+  text-align: center;
+  font-size: 0;
+  font-family: "Lucida Sans Unicode", sans-serif; }
+  .container_weather_header {
+    text-align: start;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 32px; }
+  .container_weather_content {
+    border: 2px solid #ffffff;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none; }
+    .container_weather_content li {
       color: #ffffff;
       border: 2px solid #ffffff;
       font-size: 24px;
-      padding: 20px;
-  }
-  ul:hover li {
-      opacity: 0.6;
-  }
-  ul li:hover {
-      opacity: 1.0;
-  }
-  .icons {
+      padding: 20px; }
+    .container_weather_content .icons {
       opacity: 0.7;
-      margin: 10px 0;
-  }
-  .city1 {
+      margin: 10px 0; }
+    .container_weather_content .city1 {
       width: 50%;
-      background: #309acd;
-  }
-  .city2 {
+      background: #309acd; }
+    .container_weather_content .city2 {
       width: 25%;
-      background: #30cdcd;
-  }
-  .city3 {
+      background: #30cdcd; }
+    .container_weather_content .city3 {
       width: 25%;
-      background: #9a669a;
-  }
-  .city4 {
+      background: #9a669a; }
+    .container_weather_content .city4 {
       width: 25%;
-      background: #c44545;
-  }
-  .city5 {
+      background: #c44545; }
+    .container_weather_content .city5 {
       width: 25%;
-      background: #e36748;
-  }
-  .city6 {
+      background: #e36748; }
+    .container_weather_content .city6 {
       width: 25%;
-      background: #ffcd66;
-  }
-  .city7 {
+      background: #ffcd66; }
+    .container_weather_content .city7 {
       width: 25%;
-      background: #9acd9a;
-  }
-  .city8 {
+      background: #9acd9a; }
+    .container_weather_content .city8 {
       width: 25%;
-      background: #669a9a;
-  }
-  .city9 {
+      background: #669a9a; }
+    .container_weather_content .city9 {
       width: 50%;
-      background: #cd669a;
-  }
-  .city10 {
+      background: #cd669a; }
+    .container_weather_content .city10 {
       width: 25%;
-      background: #309a66;
-  }
-  .city11 {
+      background: #309a66; }
+    .container_weather_content .city11 {
       width: 100%;
-      background: #66669a;
-  }
-  footer {
-      font-size: 20px;
-      text-align: start;
-      width: 70%;
-      margin: 20px auto 50px auto;
-      color: #ffffff;
-  }
-  .button {
-      width: 300px;
-      height: 60px;
-      font-size: 20px;
-      color: red;
-      background-color: cornflowerblue;
-      font-family: Arial, sans-serif;
-      margin: 20px 0px 50px 550px;
-  }
+      background: #66669a; }
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px; }
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid black;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: black transparent transparent transparent; }
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s; }
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s; }
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s; }
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
