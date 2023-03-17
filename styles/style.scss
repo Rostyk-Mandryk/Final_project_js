@@ -213,17 +213,19 @@ body {
   justify-content: space-between;
   padding: 80px 10%;
   position: relative;
-  &_content {
-    padding-top: 100px;
-  }
   &_photo {
+    padding-top: 11px;
     img {
     width: 40%;
     }
   }
+  &_content {
+    padding-top: 100px;
+    
+  }
   &_description {
     padding-top: 13px;
-    width: 648px;
+    width: 600px;
     height: 199px;   
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -231,7 +233,6 @@ body {
     color: #212121;
     line-height: 65px;
     letter-spacing: 0.04em;
-
   }
   &_low {
     padding-top: 27px;
@@ -252,15 +253,17 @@ body {
     }
   }
   &_group {
+    padding-right: 150px;
     img {
-      width: 100%;
+      width: 115%;
       height: 110%;
+      
     }
   }
-  &_point {
+  &_point {    
     position: absolute;
-    bottom: -75px;
-    left: 100px;
+    bottom: 175px;
+    right: 10px;
   }
 }
 // 
