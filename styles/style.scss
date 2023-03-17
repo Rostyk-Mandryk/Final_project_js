@@ -138,7 +138,132 @@ body {
     left: 10px;
   }
 }
+ /* Beginning of Section ABOUT US content stylesheet */
+ .container_about {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 10%;
+  position: relative;
+  &_photo {
+    padding-top: 91px;
+    img {
+      width: 100%;
+    }
+  }
+  &_content {
+    padding-top: 90px;
+    padding-left: 50px;
+  }
+  &_title {
+    color: #646464;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
 
+  &_description {
+    padding-top: 13px;
+    height: 125px;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #212121;
+    line-height: 57px;
+  }
+
+  &_text {
+    padding-top: 25px;
+    width: 544px;
+    height: 260px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #646464;
+    line-height: 30px;
+  }
+
+  &_low {
+    padding-top: 27px;
+
+    &_button {
+      cursor: pointer;
+      border: none;
+      background: #37806B;
+      border-radius: 20px 0px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #FFFFFF;
+      padding: 4px 15px;
+
+      &:hover {
+        filter: grayscale(45%);
+      }
+    }
+  }
+  &_point {
+    position: absolute;
+    bottom: -75px;
+    left: 100px;
+  }
+}
+// /* Ending of Section ABOUT US content stylesheet */
+ .container_twenty {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 10%;
+  position: relative;
+  &_content {
+    padding-top: 100px;
+  }
+  &_photo {
+    img {
+    width: 40%;
+    }
+  }
+  &_description {
+    padding-top: 13px;
+    width: 648px;
+    height: 199px;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #212121;
+    line-height: 65px;
+    letter-spacing: 0.04em;
+
+  }
+  &_low {
+    padding-top: 27px;
+    &_button {
+      cursor: pointer;
+      border: none;
+      background: #37806B;
+      border-radius: 20px 0px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #FFFFFF;
+      padding: 4px 15px;
+
+      &:hover {
+        filter: grayscale(45%);
+      }
+    }
+  }
+  &_group {
+    img {
+      width: 100%;
+      height: 110%;
+    }
+  }
+  &_point {
+    position: absolute;
+    bottom: -75px;
+    left: 100px;
+  }
+}
+// 
 * {
   transition: all .1s ease-in;
   box-sizing: border-box;
