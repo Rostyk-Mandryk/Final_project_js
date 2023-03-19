@@ -140,6 +140,7 @@ body {
 }
  /* Beginning of Section ABOUT US content stylesheet */
  .container_about {
+  height: 968.38px;
   display: flex;
   justify-content: space-between;
   padding: 140px 10%;
@@ -265,6 +266,168 @@ body {
     bottom: 175px;
     right: 10px;
   }
+}
+// 
+
+.container_completed {
+  padding-top: 200px;
+  &_content {
+     background: #F8F8F8;
+     height: 777px;
+    &_title{
+    padding: 87px 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #212121;
+    text-align: center;
+    }
+    &_block {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0px 10%;
+      &_glav {
+        z-index: 999;
+        padding-top: 87px;
+        &_project {
+          width: 185px;
+          height: 182px;
+          background: #FFFFFF;
+          box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+          border-radius: 40px 0px;
+          padding: 47px 50px;
+          font-family: 'Open Sans', sans-serif;
+          &_nine {
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            color: #212121;
+          }
+          &_pr {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #646464;
+          }
+        }
+      }
+      .horizontal_line_first {
+        position: absolute;
+        bottom: 199px;
+        left: 248px;
+        border-top: 2px solid #E0E0E0;
+        width: 10%;
+        z-index: 1;
+      }
+      
+      .vertical_line_first{
+        position: absolute;
+        bottom: 90px;
+        left: 390px;
+        border-left: 2px solid #E0E0E0;
+        height: 30%;
+        }
+      .horizontal_line_second {
+        position: absolute;
+        bottom: 90px;
+        left: 390px;
+        border-top: 2px solid #E0E0E0;
+        width: 10%;
+        z-index: 1;
+      }
+      &_cl {
+        padding-top: 183px;
+        z-index: 999;
+        &_client{
+          width: 185px;
+          height: 182px;
+          background: #FFFFFF;
+          box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+          border-radius: 40px 0px;
+          padding: 47px 50px;
+          font-family: 'Open Sans', sans-serif;
+          &_five {
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            color: #212121;
+          }
+          &_happy{
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #646464;
+          }
+        }
+      }
+      .vertical_line_second{
+        position: absolute;
+        bottom: 90px;
+        left: 720px;
+        border-left: 2px solid #E0E0E0;
+        height: 100px;
+        }
+      &_win {
+        padding-top: 87px;
+      &_winners{
+        width: 185px;
+        height: 182px;
+        background: #FFFFFF;
+        box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 40px 0px;
+        padding: 47px 50px;
+        font-family: 'Open Sans', sans-serif;
+        &_three {
+          font-weight: 700;
+          font-size: 50px;
+          text-align: center;
+          color: #212121;
+        }
+        &_winners {
+          font-weight: 700;
+          font-size: 18px;
+          text-align: center;
+          color: #646464;
+        }
+      }
+      }
+      .vertical_line_third{
+        position: absolute;
+        bottom: 90px;
+        left: 1040px;
+        border-left: 2px solid #E0E0E0;
+        height: 100px;
+        }
+    &_rec {
+        padding-top: 183px;
+      &_recoment{
+        width: 185px;
+        height: 182px;    
+      background: #FFFFFF;
+      box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 40px 0px;
+      padding: 47px 50px;
+      font-family: 'Open Sans', sans-serif;
+      &_one {
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        color: #212121;
+      }
+      &_recoment {
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #646464;
+      }
+     }
+    }
+  }
+  }
+
 }
 // 
 * {

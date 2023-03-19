@@ -101,6 +101,7 @@ body {
 
 /* Beginning of Section ABOUT US content stylesheet */
 .container_about {
+  height: 968.38px;
   display: flex;
   justify-content: space-between;
   padding: 140px 10%;
@@ -197,6 +198,140 @@ body {
     position: absolute;
     bottom: 175px;
     right: 10px; }
+
+.container_completed {
+  padding-top: 200px; }
+  .container_completed_content {
+    background: #F8F8F8;
+    height: 777px; }
+    .container_completed_content_title {
+      padding: 87px 10%;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 60px;
+      color: #212121;
+      text-align: center; }
+    .container_completed_content_block {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0px 10%; }
+      .container_completed_content_block_glav {
+        z-index: 999;
+        padding-top: 87px; }
+        .container_completed_content_block_glav_project {
+          width: 185px;
+          height: 182px;
+          background: #FFFFFF;
+          box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+          border-radius: 40px 0px;
+          padding: 47px 50px;
+          font-family: 'Open Sans', sans-serif; }
+          .container_completed_content_block_glav_project_nine {
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            color: #212121; }
+          .container_completed_content_block_glav_project_pr {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #646464; }
+      .container_completed_content_block .horizontal_line_first {
+        position: absolute;
+        bottom: 199px;
+        left: 248px;
+        border-top: 2px solid #E0E0E0;
+        width: 10%;
+        z-index: 1; }
+      .container_completed_content_block .vertical_line_first {
+        position: absolute;
+        bottom: 90px;
+        left: 390px;
+        border-left: 2px solid #E0E0E0;
+        height: 30%; }
+      .container_completed_content_block .horizontal_line_second {
+        position: absolute;
+        bottom: 90px;
+        left: 390px;
+        border-top: 2px solid #E0E0E0;
+        width: 10%;
+        z-index: 1; }
+      .container_completed_content_block_cl {
+        padding-top: 183px;
+        z-index: 999; }
+        .container_completed_content_block_cl_client {
+          width: 185px;
+          height: 182px;
+          background: #FFFFFF;
+          box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+          border-radius: 40px 0px;
+          padding: 47px 50px;
+          font-family: 'Open Sans', sans-serif; }
+          .container_completed_content_block_cl_client_five {
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            color: #212121; }
+          .container_completed_content_block_cl_client_happy {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #646464; }
+      .container_completed_content_block .vertical_line_second {
+        position: absolute;
+        bottom: 90px;
+        left: 720px;
+        border-left: 2px solid #E0E0E0;
+        height: 100px; }
+      .container_completed_content_block_win {
+        padding-top: 87px; }
+        .container_completed_content_block_win_winners {
+          width: 185px;
+          height: 182px;
+          background: #FFFFFF;
+          box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+          border-radius: 40px 0px;
+          padding: 47px 50px;
+          font-family: 'Open Sans', sans-serif; }
+          .container_completed_content_block_win_winners_three {
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            color: #212121; }
+          .container_completed_content_block_win_winners_winners {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #646464; }
+      .container_completed_content_block .vertical_line_third {
+        position: absolute;
+        bottom: 90px;
+        left: 1040px;
+        border-left: 2px solid #E0E0E0;
+        height: 100px; }
+      .container_completed_content_block_rec {
+        padding-top: 183px; }
+        .container_completed_content_block_rec_recoment {
+          width: 185px;
+          height: 182px;
+          background: #FFFFFF;
+          box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+          border-radius: 40px 0px;
+          padding: 47px 50px;
+          font-family: 'Open Sans', sans-serif; }
+          .container_completed_content_block_rec_recoment_one {
+            font-weight: 700;
+            font-size: 50px;
+            text-align: center;
+            color: #212121; }
+          .container_completed_content_block_rec_recoment_recoment {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #646464; }
 
 * {
   transition: all .1s ease-in;
