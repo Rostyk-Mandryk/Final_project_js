@@ -1,14 +1,18 @@
-// const timeoutInMilliseconds = 60000000000;
-// const message = 'Are you still here';
+// const timeoutInMilliseconds = 60000;
+const message = 'Are you still here';
 
-// const timer = setTimeout(() => {
-//     if (confirm(message)) {
-//         clearTimeout(timer);
-//     } else {
-//         window.close();
-//     }
-// }, timeoutInMilliseconds);
+const timeoutHandler = () => {
+    if (confirm(message)) {
+        window.clearTimeout(timeoutHandler);
+        window.setTimeout(timeoutHandler, timeoutInMilliseconds);
+    } else {
+        window.clearTimeout(timeoutHandler);
+        window.close();
+    }
+}
 
-// document.addEventListener('click', () => {
-//     clearTimeout(timer);
-// });
+window.setTimeout(timeoutHandler, timeoutInMilliseconds);
+
+document.addEventListener('click', () => {
+    window.clearTimeout(timeoutHandler);
+});
