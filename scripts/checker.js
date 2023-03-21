@@ -1,4 +1,4 @@
-//const timeoutInMilliseconds = 60000;
+const timeoutInMilliseconds = 60000;
 const message = 'Are you still here';
 
 const timeoutHandler = () => {
