@@ -28,8 +28,8 @@ Promise.all(urls.map(u => fetch(u))).then(responses =>
 ).then(citiesWeatherData => {
     setTimeout(function () {
         bodyElem.innerHTML = bodyContent;
+        sectionRenderer();
         citiesWeatherData.forEach((data) => {
-            console.log()
             const temp = data.main.temp - 273.15;
             const weather = data.weather[0].icon;
             document.getElementById(data.name).innerHTML = `${Math.round(temp)}&deg;C
@@ -37,3 +37,42 @@ Promise.all(urls.map(u => fetch(u))).then(responses =>
         })
     }, 5000);
 });
+
+const sectionRenderer = (section) => {
+    fetch('../static/SERVICES.json')
+    .then(response => response.json())
+    .then(data => {
+        renderSection(data, section);
+    })
+    .catch(error => console.error(error));
+}
+
+const renderSection = (data, inputSection) => {
+    const cards = inputSection ? data.find(({section}) => section === inputSection).items
+        : data.map((section) => section.items).map((items) => items[items.length - 1]);
+    const container = document.getElementById('cards_container');
+    container.innerHTML = '';
+    cards.forEach((cardData) => {
+        const card = cardBuilder(cardData);
+        container.insertAdjacentHTML('beforeend', card);
+    })
+}
+
+const cardBuilder = ({name, description, icon, background}) => {
+    const baseClass = 'container_service_card_' + background;
+    return `
+        <div class="${baseClass}">
+            <div class="${baseClass}_name">
+                ${name}
+            </div>
+            <div class="${baseClass}_lor">
+                ${description}
+            </div>
+            <div class="${baseClass}_photo">
+                <img src="photo/${icon}" alt="image">
+            </div>
+        </div>
+    `;
+}
+
+

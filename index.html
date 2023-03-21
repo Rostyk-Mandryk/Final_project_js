@@ -58,6 +58,32 @@
     </div>
 </section>
 <!-- ---- -->
+<section class="container_service">
+    <div class="container_service_content">
+        <div class="container_service_content_title">
+            WHAT WE DO
+        </div>
+        <div class="container_service_content_description">
+            Our Service
+        </div>
+    </div>
+    <div class="container_service_low">
+        <button onclick="sectionRenderer(null)" class="container_service_low_button">
+            ALL
+        </button>
+        <button onclick="sectionRenderer('INTERIOR DESIGN')" class="container_service_low_button">
+            INTERIOR DESIGN
+        </button>
+        <button onclick="sectionRenderer('ARCHITECTURE')" class="container_service_low_button">
+            ARCHITECTURE
+        </button>
+        <button onclick="sectionRenderer('PLANNING')" class="container_service_low_button">
+            PLANNING
+        </button>
+    </div>
+    <div class="container_service_card" id="cards_container">
+    </div>
+</section>
 <!-- Section ABOUT US -->
 <section class="container_about">
     <div class="container_about_photo">
@@ -495,13 +521,17 @@
   </footer>
   <div class="footer_line"></div>   
   <div class="rights">
-        Copyright @ 2020 <span>Brandoxide.all</span> right reserved.    </a>
-  </div>
-
-<script src="scripts/weather.js"></script>
+    Copyright @ <span id="copyright-year">
+        <!-- Рік буде вставлено за допомогою JavaScript -->
+    </span> <span class="rights_green">Brandoxide.all</span> right reserved.
+</div>
+<script src="scripts/year.js"></script>
+<script src="scripts/main.js"></script>
 <script src="scripts/checker.js"></script>
 <script src="scripts/slider.js"></script>
 <!--  -->
+
+
 
 
 </body>

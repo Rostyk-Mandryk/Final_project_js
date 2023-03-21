@@ -98,6 +98,99 @@ body {
     bottom: -200px;
     left: 10px; }
 
+.container_service {
+  height: 854px;
+  padding-top: 100px; }
+  .container_service_content {
+    text-align: center; }
+    .container_service_content_title {
+      color: #646464;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 20px; }
+    .container_service_content_description {
+      color: #212121;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 48px; }
+  .container_service_low {
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .container_service_low_button {
+      width: 206.67px;
+      height: 46.04px;
+      cursor: pointer;
+      border: none;
+      background: #37806B;
+      border-radius: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+      padding: 5px 20px; }
+      .container_service_low_button:hover {
+        background: #FFFFFF;
+        border: 5px solid #37806B;
+        color: #37806B; }
+  .container_service_card {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+    .container_service_card_white {
+      position: relative;
+      width: 477.23px;
+      height: 164.57px;
+      background: #FFFFFF;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+      border-radius: 60px 0px; }
+      .container_service_card_white_name {
+        padding-left: 99px;
+        padding-top: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #212121; }
+      .container_service_card_white_lor {
+        width: 443px;
+        padding-left: 99px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #646464; }
+      .container_service_card_white_photo {
+        position: absolute;
+        left: 30px;
+        top: 25px; }
+    .container_service_card_brown {
+      position: relative;
+      width: 477.23px;
+      height: 164.57px;
+      background: #CAA892;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+      border-radius: 60px 0px; }
+      .container_service_card_brown_name {
+        padding-left: 99px;
+        padding-top: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #212121; }
+      .container_service_card_brown_lor {
+        width: 443px;
+        padding-left: 99px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #646464; }
+      .container_service_card_brown_photo {
+        position: absolute;
+        left: 30px;
+        top: 25px; }
+
 /* Beginning of Section ABOUT US content stylesheet */
 .container_about {
   height: 968.38px;
@@ -607,7 +700,7 @@ body {
   font-size: 18px;
   line-height: 25px;
   color: #646464; }
-  .rights span {
+  .rights_green {
     color: #37806B; }
 
 /* Ending of of Footer content stylesheet */

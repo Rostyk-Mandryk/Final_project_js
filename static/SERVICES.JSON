@@ -1,0 +1,107 @@
+[
+    {
+        "section": "INTERIOR DESIGN",
+        "items": [
+            {
+                "name": "Interior Design 1",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Interior Design 2",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Interior Design 3",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Interior Design 4",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Interior Design 1",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            }
+        ]
+    },
+    {
+        "section": "ARCHITECTURE",
+        "items": [
+            {
+                "name": "Architecture 1",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "brown",
+                "icon": "ere.svg"
+            },
+            {
+                "name": "Architecture 2",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "brown",
+                "icon": "ere.svg"
+            },
+            {
+                "name": "Architecture 3",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "brown",
+                "icon": "ere.svg"
+            },
+            {
+                "name": "Architecture 4",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "brown",
+                "icon": "ere.svg"
+            },
+            {
+                "name": "Architecture 1",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "brown",
+                "icon": "ere.svg"
+            }
+        ]
+    },
+    {
+        "section": "PLANNING",
+        "items": [
+            {
+                "name": "Planning 1",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Planning 2",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Planning 3",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Planning 4",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sr.svg"
+            },
+            {
+                "name": "Planning 1",
+                "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
+                "background": "white",
+                "icon": "sd.svg"
+            }
+        ]
+    }
+]

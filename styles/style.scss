@@ -137,6 +137,115 @@ body {
     left: 10px;
   }
 }
+.container_service {
+  height: 854px;
+  padding-top: 100px;
+    &_content {
+      text-align: center;
+    &_title {
+      color: #646464;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+    }
+    &_description {
+      color: #212121;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 48px;
+    }
+  }
+  &_low {
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &_button {
+      width: 206.67px;
+      height: 46.04px;
+      cursor: pointer;
+      border: none;
+      background: #37806B;
+      border-radius: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+      padding: 5px 20px;
+
+      &:hover {
+        background: #FFFFFF;
+        border: 5px solid #37806B;
+        color: #37806B;
+      }
+    }
+  }
+  &_card {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &_white {
+      position: relative;
+      width: 477.23px;
+      height: 164.57px;
+      background: #FFFFFF;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+      border-radius: 60px 0px;
+      &_name {
+        padding-left: 99px;
+        padding-top: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #212121;
+      }
+      &_lor {
+          width: 443px;
+          padding-left: 99px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: #646464;
+      }
+      &_photo {
+        position: absolute;
+        left: 30px;
+        top: 25px;
+      }
+    }
+    &_brown {
+      position: relative;
+      width: 477.23px;
+      height: 164.57px;
+      background: #CAA892;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+      border-radius: 60px 0px;
+      &_name {
+        padding-left: 99px;
+        padding-top: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #212121;
+      }
+      &_lor {
+          width: 443px;
+          padding-left: 99px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: #646464;
+      }
+      &_photo {
+        position: absolute;
+        left: 30px;
+        top: 25px;
+      }
+    }
+  }
+}
  /* Beginning of Section ABOUT US content stylesheet */
  .container_about {
   height: 968.38px;
@@ -795,7 +904,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #646464;
-  span {
+  &_green {
     color: #37806B;
   }
 }
