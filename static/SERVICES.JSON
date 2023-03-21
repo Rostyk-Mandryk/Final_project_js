@@ -27,7 +27,7 @@
                 "icon": "sr.svg"
             },
             {
-                "name": "Interior Design 1",
+                "name": "Interior Design 5",
                 "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
                 "background": "white",
                 "icon": "sr.svg"
@@ -62,7 +62,7 @@
                 "icon": "ere.svg"
             },
             {
-                "name": "Architecture 1",
+                "name": "Architecture 5",
                 "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
                 "background": "brown",
                 "icon": "ere.svg"
@@ -97,7 +97,7 @@
                 "icon": "sr.svg"
             },
             {
-                "name": "Planning 1",
+                "name": "Planning 5",
                 "description": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.",
                 "background": "white",
                 "icon": "sd.svg"

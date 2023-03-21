@@ -182,11 +182,15 @@ body {
   }
   &_card {
     padding-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     &_white {
+      margin: 0px 30px 50px 0;
       position: relative;
-      width: 477.23px;
+      width: 420px;
       height: 164.57px;
       background: #FFFFFF;
       box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
@@ -215,8 +219,9 @@ body {
       }
     }
     &_brown {
+      margin: 0px 30px 50px 0;
       position: relative;
-      width: 477.23px;
+      width: 420px;
       height: 164.57px;
       background: #CAA892;
       box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
@@ -227,7 +232,7 @@ body {
         font-family: 'Open Sans', sans-serif;
         font-weight: 700;
         font-size: 24px;
-        color: #212121;
+        color: #ffffff;
       }
       &_lor {
           width: 443px;
@@ -236,7 +241,7 @@ body {
           font-weight: 400;
           font-size: 18px;
           line-height: 28px;
-          color: #646464;
+          color: #ffffff;
       }
       &_photo {
         position: absolute;
